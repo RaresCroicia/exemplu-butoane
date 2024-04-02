@@ -1,5 +1,5 @@
 
-nPressed = false;
+volatile bool buttonPressed = false;
  
 #define buttonPin1 2
 #define buttonPin2 3
